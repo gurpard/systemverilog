@@ -1,6 +1,6 @@
 module ALU(input logic A, B,
-			  input logic [2:0] opcode,
-			  output logic out);
+	   input logic [2:0] opcode,
+	   output logic out);
 	
 	always_comb begin
 		case (opcode)
